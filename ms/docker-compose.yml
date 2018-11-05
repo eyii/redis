@@ -1,0 +1,76 @@
+master:
+  build: ./master
+  container_name: master
+  hostname: master
+  volumes:
+  - './master/redis.conf:/usr/local/etc/redis/redis.conf'
+  ports:
+  - 6379:6379
+slave1:
+  build: ./slave
+  container_name: slave1
+  hostname: slave1
+  links:
+  - master
+  volumes:
+  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
+  ports:
+  - 6061:6061
+  - 16061:16061
+slave2:
+  build: ./slave
+  container_name: slave2
+  hostname: slave2
+  volumes:
+  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
+  links:
+  - master
+  ports:
+  - 6062:6062
+  - 16062:16062
+slave3:
+  build: ./slave
+  container_name: slave3
+  hostname: slave3
+  volumes:
+  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
+  links:
+  - master
+  ports:
+  - 6063:6063
+  - 16063:16063
+slave4:
+  build: ./slave
+  container_name: slave4
+  hostname: slave4
+  volumes:
+  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
+  links:
+  - master
+  ports:
+  - 6064:6064
+  - 16064:16064
+slave5:
+  build: ./slave
+  container_name: slave5
+  hostname: slave5
+  volumes:
+  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
+  links:
+  - master
+  ports:
+  - 6065:6065
+  - 16065:16065
+slave6:
+  build: ./slave
+  container_name: slave6
+  hostname: slave6
+  volumes:
+  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
+  links:
+  - master
+  ports:
+  - 6066:6066
+  - 16066:16066
+
+
