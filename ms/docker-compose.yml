@@ -14,8 +14,6 @@ slave1:
     REDIS_PORT: 6371
   links:
   - master
-  volumes:
-  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
   ports:
   - 6371:6371
   - 16061:16061
@@ -25,8 +23,6 @@ slave2:
   hostname: slave2
   environment:
     REDIS_PORT: 6372
-  volumes:
-  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
   links:
   - master
   ports:
@@ -38,8 +34,6 @@ slave3:
   hostname: slave3
   environment:
     REDIS_PORT: 6373
-  volumes:
-  - './slave/redis.conf:/usr/local/etc/redis/redis.conf'
   links:
   - master
   ports:
