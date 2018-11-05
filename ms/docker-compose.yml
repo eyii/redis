@@ -26,7 +26,7 @@ slave2:
   links:
   - master
   ports:
-  - 6373:6373
+  - 6372:6372
   - 16062:16062
 slave3:
   build: ./slave
