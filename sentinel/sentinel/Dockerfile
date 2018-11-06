@@ -1,5 +1,6 @@
 FROM redis:3
 EXPOSE 26379
+RUN ln -s /usr/local/bin/redis-cli /usr/local/bin/rc
 ADD sentinel.conf /etc/redis/sentinel.conf
 RUN chown redis:redis /etc/redis/sentinel.conf
 ENV SENTINEL_QUORUM 2
