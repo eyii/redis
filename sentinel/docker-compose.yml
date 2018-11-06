@@ -2,6 +2,8 @@ master:
   image: redis:3
   container_name: master
   hostname: master
+ # environment:
+  #  - affinity:service!=slave
   ports:
   - 6379:6379
   - 16061:16061
@@ -15,7 +17,10 @@ sentinel:
   hostname: sentinel
   environment:
     - SENTINEL_DOWN_AFTER=5000
-    - SENTINEL_FAILOVER=5000    
+    - SENTINEL_FAILOVER=5000
+  #  - affinity:service!=master
+  #  - affinity:service!=slave
+  # - affinity:service!=sentinel
   links:
     - master:master
     - slave

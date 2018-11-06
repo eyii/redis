@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bc699e1-dcc0-47e3-ae6d-2f05baa586c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms/slave1/redis.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ms/slave1/redis.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentinel/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel/sentinel/sentinel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel/sentinel.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/test.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,40 +46,42 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="41" />
-          <entry key="conf" value="63" />
+          <entry key="Dockerfile" value="48" />
+          <entry key="LICENSE" value="1" />
+          <entry key="conf" value="69" />
           <entry key="iml" value="1" />
-          <entry key="md" value="5" />
-          <entry key="sh" value="4" />
-          <entry key="yml" value="31" />
+          <entry key="md" value="10" />
+          <entry key="sh" value="8" />
+          <entry key="yml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
-          <entry key="Dockerfile" value="41" />
+          <entry key="Bash" value="8" />
+          <entry key="Dockerfile" value="48" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Markdown" value="5" />
-          <entry key="SmartyConfig" value="63" />
-          <entry key="YAML" value="31" />
+          <entry key="Markdown" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SmartyConfig" value="69" />
+          <entry key="YAML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="182" />
-          <entry key="conf" value="124" />
-          <entry key="md" value="13" />
-          <entry key="sh" value="17" />
-          <entry key="yml" value="263" />
+          <entry key="Dockerfile" value="188" />
+          <entry key="conf" value="131" />
+          <entry key="md" value="27" />
+          <entry key="sh" value="25" />
+          <entry key="yml" value="276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="17" />
-          <entry key="Dockerfile" value="182" />
-          <entry key="Markdown" value="13" />
-          <entry key="SmartyConfig" value="124" />
-          <entry key="YAML" value="263" />
+          <entry key="Bash" value="25" />
+          <entry key="Dockerfile" value="188" />
+          <entry key="Markdown" value="27" />
+          <entry key="SmartyConfig" value="131" />
+          <entry key="YAML" value="276" />
         </counts>
       </usages-collector>
     </session>
@@ -81,29 +90,7 @@
     <favorites_list name="redis" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sentinel/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#107#0" />
-                <element signature="e#17#24#0" />
-                <element signature="e#43#49#0" />
-                <element signature="e#62#68#0" />
-                <element signature="e#71#107#0" />
-                <element signature="e#82#91#0" />
-                <element signature="e#96#107#0" />
-                <element signature="e#124#131#0" />
-                <element signature="e#143#177#0" />
-                <element signature="e#375#388#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -138,27 +125,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/ms/redis.conf" />
         <option value="$PROJECT_DIR$/ms/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/redis.conf" />
-        <option value="$PROJECT_DIR$/ms/master/Dockerfile" />
         <option value="$PROJECT_DIR$/ms/readme.md" />
         <option value="$PROJECT_DIR$/ms/slave/Dockerfile" />
         <option value="$PROJECT_DIR$/ms/slave/redis.conf" />
-        <option value="$PROJECT_DIR$/ms/slave1/Dockerfile" />
-        <option value="$PROJECT_DIR$/ms/slave2/Dockerfile" />
         <option value="$PROJECT_DIR$/ms/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/sentinel/sentinel/Dockerfile" />
-        <option value="$PROJECT_DIR$/sentinel/test.sh" />
         <option value="$PROJECT_DIR$/sentinel/s.conf" />
         <option value="$PROJECT_DIR$/sentinel/sentinel/sentinel-entrypoint.sh" />
         <option value="$PROJECT_DIR$/ms/master/redis.conf" />
         <option value="$PROJECT_DIR$/ms/slave2/redis.conf" />
+        <option value="$PROJECT_DIR$/sentinel/sentinel/Dockerfile" />
+        <option value="$PROJECT_DIR$/ms/slave1/Dockerfile" />
+        <option value="$PROJECT_DIR$/ms/master/Dockerfile" />
+        <option value="$PROJECT_DIR$/ms/slave2/Dockerfile" />
+        <option value="$PROJECT_DIR$/sentinel/test.sh" />
         <option value="$PROJECT_DIR$/ms/slave1/redis.conf" />
         <option value="$PROJECT_DIR$/sentinel/sentinel/sentinel.conf" />
+        <option value="$PROJECT_DIR$/sentinel/README.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/sentinel/docker-compose.yml" />
       </list>
     </option>
@@ -281,12 +269,17 @@
             <path>
               <item name="redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -305,7 +298,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541475097643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541478984504" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -346,12 +339,12 @@
       <workItem from="1541381429045" duration="5278000" />
       <workItem from="1541386854435" duration="1599000" />
       <workItem from="1541421230690" duration="2156000" />
-      <workItem from="1541466646156" duration="8046000" />
+      <workItem from="1541466646156" duration="11864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17079000" />
+    <option name="totallyTimeSpent" value="20897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -475,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel/redis.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="71" selection-start-line="71" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ms/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -489,27 +475,6 @@
             <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/master/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/slave1/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/slave2/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -552,12 +517,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel/test.sh">
+    <entry file="file://$PROJECT_DIR$/ms/master/redis.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="504">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sentinel/s.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -566,37 +534,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/sentinel/redis.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#17#25#0" />
-            <element signature="e#44#50#0" />
-            <element signature="e#63#69#0" />
-            <element signature="e#72#138#0" />
-            <element signature="e#85#138#0" />
-            <element signature="e#141#161#0" />
-            <element signature="e#152#161#0" />
-            <element signature="e#179#187#0" />
-            <element signature="e#225#231#0" />
-            <element signature="e#263#269#0" />
-            <element signature="e#272#289#0" />
-            <element signature="e#283#289#0" />
-            <element signature="e#303#312#0" />
-            <element signature="e#317#328#0" />
-            <element signature="e#329#495#0" />
-            <element signature="e#346#354#0" />
-            <element signature="e#373#379#0" />
-            <element signature="e#382#417#0" />
-            <element signature="e#411#417#0" />
-            <element signature="e#430#436#0" />
-            <element signature="e#439#456#0" />
-            <element signature="e#450#456#0" />
-            <element signature="e#459#495#0" />
-            <element signature="e#470#479#0" />
-            <element signature="e#484#495#0" />
-          </folding>
+        <state relative-caret-position="505">
+          <caret line="71" selection-start-line="71" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/master/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -607,17 +555,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms/slave1/redis.conf">
+    <entry file="file://$PROJECT_DIR$/ms/slave2/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms/master/redis.conf">
+    <entry file="file://$PROJECT_DIR$/sentinel/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#161#0" />
+            <element signature="e#17#25#0" />
+            <element signature="e#44#50#0" />
+            <element signature="e#63#69#0" />
+            <element signature="e#72#138#0" />
+            <element signature="e#85#138#0" />
+            <element signature="e#141#161#0" />
+            <element signature="e#152#161#0" />
+            <element signature="e#179#187#0" />
+            <element signature="e#206#212#0" />
+            <element signature="e#225#231#0" />
+            <element signature="e#263#269#0" />
+            <element signature="e#283#289#0" />
+            <element signature="e#346#354#0" />
+            <element signature="e#470#479#0" />
+            <element signature="e#484#495#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/slave1/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/slave1/redis.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -628,35 +622,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel/sentinel/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/sentinel/sentinel/sentinel.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentinel/sentinel/sentinel.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+    <entry file="file://$PROJECT_DIR$/sentinel/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <folding>
+              <element signature="e#57#113#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sentinel/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="e#0#107#0" />
             <element signature="e#17#24#0" />
             <element signature="e#43#49#0" />
             <element signature="e#62#68#0" />
-            <element signature="e#71#107#0" />
             <element signature="e#82#91#0" />
             <element signature="e#96#107#0" />
             <element signature="e#124#131#0" />
             <element signature="e#143#177#0" />
-            <element signature="e#375#388#0" />
+            <element signature="e#180#206#0" />
+            <element signature="e#193#206#0" />
+            <element signature="e#226#234#0" />
+            <element signature="e#247#255#0" />
+            <element signature="e#277#301#0" />
+            <element signature="e#308#330#0" />
+            <element signature="e#350#363#0" />
+            <element signature="e#370#375#0" />
           </folding>
         </state>
       </provider>

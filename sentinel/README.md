@@ -1,3 +1,4 @@
+https://github.com/AliyunContainerService/redis-cluster
 
 docker pause master
 docker unpause rediscluster_master_1
@@ -13,3 +14,7 @@ docker-compose scale sentinel=3
 [3]: https://docs.docker.com/compose/
 [4]: https://www.docker.com
 
+#docker exec -it redis_redis-slave-1_1 redis-cli -a 123456
+ get a
+
+info replication
