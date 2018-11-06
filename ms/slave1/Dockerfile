@@ -1,6 +1,6 @@
 FROM redis
 COPY redis.conf /usr/local/etc/redis/redis.conf
-RUN echo -e "\nport $REDIS_PORT">>/usr/local/etc/redis/redis.conf
+RUN echo "\nport $REDIS_PORT">>/usr/local/etc/redis/redis.conf
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
 RUN chmod 777 /usr/local/etc/redis/redis.conf
