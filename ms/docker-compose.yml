@@ -1,7 +1,6 @@
 master:
   build: ./master
   container_name: master
-  image: redis
   hostname: master
   volumes:
   - './master/redis.conf:/usr/local/etc/redis/redis.conf'
