@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bc699e1-dcc0-47e3-ae6d-2f05baa586c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms/slave1/redis.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ms/slave1/redis.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/sentinel/sentinel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/sentinel/sentinel.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel/test.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +43,7 @@
           <entry key="LICENSE" value="1" />
           <entry key="conf" value="69" />
           <entry key="iml" value="1" />
-          <entry key="md" value="10" />
+          <entry key="md" value="11" />
           <entry key="sh" value="8" />
           <entry key="yml" value="33" />
         </counts>
@@ -60,7 +53,7 @@
           <entry key="Bash" value="8" />
           <entry key="Dockerfile" value="48" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Markdown" value="10" />
+          <entry key="Markdown" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SmartyConfig" value="69" />
           <entry key="YAML" value="33" />
@@ -70,7 +63,7 @@
         <counts>
           <entry key="Dockerfile" value="188" />
           <entry key="conf" value="131" />
-          <entry key="md" value="27" />
+          <entry key="md" value="29" />
           <entry key="sh" value="25" />
           <entry key="yml" value="276" />
         </counts>
@@ -79,7 +72,7 @@
         <counts>
           <entry key="Bash" value="25" />
           <entry key="Dockerfile" value="188" />
-          <entry key="Markdown" value="27" />
+          <entry key="Markdown" value="29" />
           <entry key="SmartyConfig" value="131" />
           <entry key="YAML" value="276" />
         </counts>
@@ -146,8 +139,8 @@
         <option value="$PROJECT_DIR$/ms/slave1/redis.conf" />
         <option value="$PROJECT_DIR$/sentinel/sentinel/sentinel.conf" />
         <option value="$PROJECT_DIR$/sentinel/README.md" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/sentinel/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -298,7 +291,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541478984504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541482258767" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -339,16 +332,15 @@
       <workItem from="1541381429045" duration="5278000" />
       <workItem from="1541386854435" duration="1599000" />
       <workItem from="1541421230690" duration="2156000" />
-      <workItem from="1541466646156" duration="11864000" />
+      <workItem from="1541466646156" duration="13294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20897000" />
+    <option name="totallyTimeSpent" value="22327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7704655" visible="true" weight="0.2484815" />
       <window_info id="Structure" order="1" sideWeight="0.2295345" side_tool="true" visible="true" weight="0.2484815" />
@@ -642,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentinel/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -673,6 +655,16 @@
             <element signature="e#350#363#0" />
             <element signature="e#370#375#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
