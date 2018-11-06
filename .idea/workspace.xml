@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bc699e1-dcc0-47e3-ae6d-2f05baa586c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8bc699e1-dcc0-47e3-ae6d-2f05baa586c4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +39,15 @@
         <counts>
           <entry key="Dockerfile" value="48" />
           <entry key="LICENSE" value="1" />
+          <entry key="SECURITY_CONTACTS" value="1" />
           <entry key="conf" value="69" />
+          <entry key="gitignore" value="1" />
+          <entry key="go" value="1" />
           <entry key="iml" value="1" />
-          <entry key="md" value="11" />
+          <entry key="json" value="1" />
+          <entry key="md" value="12" />
           <entry key="sh" value="8" />
+          <entry key="yaml" value="1" />
           <entry key="yml" value="33" />
         </counts>
       </usages-collector>
@@ -53,10 +56,11 @@
           <entry key="Bash" value="8" />
           <entry key="Dockerfile" value="48" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Markdown" value="11" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="12" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="SmartyConfig" value="69" />
-          <entry key="YAML" value="33" />
+          <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -83,7 +87,68 @@
     <favorites_list name="redis" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/k8s/examples/SECURITY_CONTACTS">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/k8s/examples/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/k8s/examples/code-of-conduct.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/k8s/examples/staging/cloud-controller-manager/persistent-volume-label-initializer-config.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding>
+                <element signature="e#182#279#1" />
+                <element signature="e#184#205#0" />
+                <element signature="e#203#205#0" />
+                <element signature="e#212#236#0" />
+                <element signature="e#233#236#0" />
+                <element signature="e#243#279#0" />
+                <element signature="e#262#279#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/k8s/examples/staging/doc.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/k8s/examples/staging/scheduler-policy-config-with-extender.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#347#0" />
+                <element signature="e#56#345#0" />
+                <element signature="e#59#339#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -158,7 +223,7 @@
   </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9999" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="25" />
     <option name="width" value="1853" />
     <option name="height" value="1055" />
@@ -267,12 +332,6 @@
             <path>
               <item name="redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="k8s" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -291,7 +350,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541482258767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541482882744" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -332,12 +391,12 @@
       <workItem from="1541381429045" duration="5278000" />
       <workItem from="1541386854435" duration="1599000" />
       <workItem from="1541421230690" duration="2156000" />
-      <workItem from="1541466646156" duration="13294000" />
+      <workItem from="1541466646156" duration="13849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22327000" />
+    <option name="totallyTimeSpent" value="22882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -667,6 +726,54 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/examples/SECURITY_CONTACTS">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/examples/staging/scheduler-policy-config-with-extender.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#347#0" />
+            <element signature="e#56#345#0" />
+            <element signature="e#59#339#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/examples/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/examples/code-of-conduct.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/examples/staging/cloud-controller-manager/persistent-volume-label-initializer-config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#182#279#1" />
+            <element signature="e#184#205#0" />
+            <element signature="e#203#205#0" />
+            <element signature="e#212#236#0" />
+            <element signature="e#233#236#0" />
+            <element signature="e#243#279#0" />
+            <element signature="e#262#279#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s/examples/staging/doc.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
