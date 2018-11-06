@@ -7,22 +7,18 @@ master:
   ports:
   - 6379:6379
 slave1:
-  build: ./slave
+  build: ./slave1
   container_name: slave1
   hostname: slave1
-  environment:
-    REDIS_PORT: 6371
   links:
   - master
   ports:
   - 6371:6371
   - 16061:16061
 slave2:
-  build: ./slave
+  build: ./slave2
   container_name: slave2
   hostname: slave2
-  environment:
-    REDIS_PORT: 6372
   links:
   - master
   ports:
