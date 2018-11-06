@@ -1,7 +1,7 @@
 FROM redis
 ENV REDIS_PORT 6379
 COPY redis.conf /usr/local/etc/redis/redis.conf
-RUN echo -e "port $REDIS_PORT">>/usr/local/etc/redis/redis.conf
+RUN echo "port $REDIS_PORT">>/usr/local/etc/redis/redis.conf
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
 RUN chmod 777 /usr/local/etc/redis/redis.conf

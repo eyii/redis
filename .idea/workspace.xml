@@ -37,35 +37,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="21" />
-          <entry key="conf" value="39" />
+          <entry key="Dockerfile" value="24" />
+          <entry key="conf" value="42" />
           <entry key="iml" value="1" />
           <entry key="md" value="5" />
-          <entry key="yml" value="19" />
+          <entry key="yml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dockerfile" value="21" />
+          <entry key="Dockerfile" value="24" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Markdown" value="5" />
-          <entry key="SmartyConfig" value="39" />
-          <entry key="YAML" value="19" />
+          <entry key="SmartyConfig" value="42" />
+          <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="106" />
-          <entry key="conf" value="94" />
+          <entry key="Dockerfile" value="161" />
+          <entry key="conf" value="95" />
           <entry key="md" value="13" />
           <entry key="yml" value="204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="106" />
+          <entry key="Dockerfile" value="161" />
           <entry key="Markdown" value="13" />
-          <entry key="SmartyConfig" value="94" />
+          <entry key="SmartyConfig" value="95" />
           <entry key="YAML" value="204" />
         </counts>
       </usages-collector>
@@ -77,10 +77,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ms/slave2/redis.conf">
+        <entry file="file://$PROJECT_DIR$/ms/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="18" />
+            <state relative-caret-position="315">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#161#0" />
+                <element signature="e#17#25#0" />
+                <element signature="e#44#50#0" />
+                <element signature="e#63#69#0" />
+                <element signature="e#72#138#0" />
+                <element signature="e#85#138#0" />
+                <element signature="e#141#161#0" />
+                <element signature="e#152#161#0" />
+                <element signature="e#179#187#0" />
+                <element signature="e#206#212#0" />
+                <element signature="e#225#231#0" />
+                <element signature="e#270#287#0" />
+                <element signature="e#281#287#0" />
+                <element signature="e#290#326#0" />
+                <element signature="e#301#310#0" />
+                <element signature="e#315#326#0" />
+                <element signature="e#371#377#0" />
+                <element signature="e#426#432#0" />
+                <element signature="e#446#452#0" />
+                <element signature="e#466#475#0" />
+                <element signature="e#480#491#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,10 +150,11 @@
         <option value="$PROJECT_DIR$/ms/slave/Dockerfile" />
         <option value="$PROJECT_DIR$/ms/slave/redis.conf" />
         <option value="$PROJECT_DIR$/ms/master/redis.conf" />
-        <option value="$PROJECT_DIR$/ms/slave2/Dockerfile" />
         <option value="$PROJECT_DIR$/ms/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/ms/slave2/redis.conf" />
         <option value="$PROJECT_DIR$/ms/slave1/redis.conf" />
+        <option value="$PROJECT_DIR$/ms/slave2/redis.conf" />
+        <option value="$PROJECT_DIR$/ms/slave2/Dockerfile" />
+        <option value="$PROJECT_DIR$/ms/slave1/Dockerfile" />
       </list>
     </option>
   </component>
@@ -288,7 +312,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541468270230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541468322417" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="hal.phpmetrics.idea.settings.SettingsForm" />
@@ -329,19 +353,19 @@
       <workItem from="1541381429045" duration="5278000" />
       <workItem from="1541386854435" duration="1599000" />
       <workItem from="1541421230690" duration="2156000" />
-      <workItem from="1541466646156" duration="1620000" />
+      <workItem from="1541466646156" duration="1957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10653000" />
+    <option name="totallyTimeSpent" value="10990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7704655" visible="true" weight="0.2484815" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.2295345" side_tool="true" visible="true" weight="0.2484815" />
+      <window_info id="Structure" order="1" sideWeight="0.2295345" side_tool="true" visible="true" weight="0.2484815" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -355,7 +379,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32938644" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32938644" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -503,24 +527,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms/slave1/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/ms/slave2/redis.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="504">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ms/slave2/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/slave1/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/slave1/redis.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ms/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#161#0" />
             <element signature="e#17#25#0" />
@@ -530,41 +568,20 @@
             <element signature="e#85#138#0" />
             <element signature="e#141#161#0" />
             <element signature="e#152#161#0" />
-            <element signature="e#162#326#0" />
             <element signature="e#179#187#0" />
             <element signature="e#206#212#0" />
             <element signature="e#225#231#0" />
-            <element signature="e#234#267#0" />
-            <element signature="e#263#267#0" />
             <element signature="e#270#287#0" />
             <element signature="e#281#287#0" />
             <element signature="e#290#326#0" />
             <element signature="e#301#310#0" />
             <element signature="e#315#326#0" />
-            <element signature="e#344#352#0" />
             <element signature="e#371#377#0" />
-            <element signature="e#409#413#0" />
             <element signature="e#426#432#0" />
-            <element signature="e#435#452#0" />
             <element signature="e#446#452#0" />
-            <element signature="e#455#491#0" />
             <element signature="e#466#475#0" />
             <element signature="e#480#491#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/slave1/redis.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/slave2/redis.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="18" />
         </state>
       </provider>
     </entry>
