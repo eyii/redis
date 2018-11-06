@@ -1,6 +1,7 @@
 master:
   build: ./master
   container_name: master
+  image: redis
   hostname: master
   volumes:
   - './master/redis.conf:/usr/local/etc/redis/redis.conf'
@@ -10,7 +11,7 @@ slave1:
   build: ./slave
   container_name: slave1
   hostname: slave1
-  images: redis
+  image: redis
   environment:
     REDIS_PORT: 6371
   links:
@@ -22,7 +23,7 @@ slave2:
   build: ./slave
   container_name: slave2
   hostname: slave2
-  images: redis
+  image: redis
   environment:
     REDIS_PORT: 6372
   links:
