@@ -1,5 +1,4 @@
 FROM redis
-ENV REDIS_PORT 6379
 COPY redis.conf /usr/local/etc/redis/redis.conf
 RUN echo -e "\nport $REDIS_PORT">>/usr/local/etc/redis/redis.conf
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
