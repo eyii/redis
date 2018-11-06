@@ -1,0 +1,26 @@
+master:
+  image: redis:3
+  container_name: master
+  hostname: master
+  ports:
+  - 6379:6379
+  - 16061:16061
+slave:
+  image: redis:3
+  command: redis-server --slaveof master 6379
+  container_name: slave
+  hostname: slave
+  links:
+    - master:master
+sentinel:
+  build: sentinel
+  container_name: sentinel
+  hostname: sentinel
+  ports:
+  - 26379:26379
+  environment:
+    - SENTINEL_DOWN_AFTER=5000
+    - SENTINEL_FAILOVER=5000    
+  links:
+    - master:master
+    - slave
