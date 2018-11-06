@@ -13,8 +13,6 @@ slave:
 sentinel:
   build: sentinel
   hostname: sentinel
-  ports:
-  - 26379:26379
   environment:
     - SENTINEL_DOWN_AFTER=5000
     - SENTINEL_FAILOVER=5000    
