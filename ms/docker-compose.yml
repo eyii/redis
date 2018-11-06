@@ -10,6 +10,7 @@ slave1:
   build: ./slave
   container_name: slave1
   hostname: slave1
+  images: redis
   environment:
     REDIS_PORT: 6371
   links:
@@ -21,6 +22,7 @@ slave2:
   build: ./slave
   container_name: slave2
   hostname: slave2
+  images: redis
   environment:
     REDIS_PORT: 6372
   links:
@@ -28,17 +30,6 @@ slave2:
   ports:
   - 6372:6372
   - 16062:16062
-slave3:
-  build: ./slave
-  container_name: slave3
-  hostname: slave3
-  environment:
-    REDIS_PORT: 6373
-  links:
-  - master
-  ports:
-  - 6373:6373
-  - 16063:16063
 
 
 
